@@ -13,9 +13,16 @@
     --fonte-principal: "Poppins";
     --azul:  #002F52;
     --fonte-secundario: "Josein Sans";
+    --preto:  #000000;
+    --cinza:  #474646;
+    --cinza-claro:  #858585;
 }
+
 body {
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 h1 {
     background-color: white;
